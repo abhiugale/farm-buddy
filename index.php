@@ -9,15 +9,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="/opt/lampp/htdocs/Farm-Grow/Farm-Grow/images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-      Bootstrap
-    </a>
-  </div>
-</nav>
-
+ <div class="banner">
+  <nav>
+    <img src="images/logo.png" class="logo">
+  <ul>
+    <li><a href="">Weather</a></li>
+    <li><a href="">Dairy</a></li>
+    <li><a href="">Storage</a></li>
+    <li><a href="">Labours</a></li>
+    <li><a href="">Help</a></li>
+    <li><a href="">About Us</a></li>
+  </ul>
+  <img src="images/menu.png" class="menu">
+  </nav>
+ </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
