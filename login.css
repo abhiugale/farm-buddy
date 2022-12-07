@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        padding: 20px 8%;
+    }
+    nav .logo{
+    width: 115px;
+    margin-right: 20px;
+    
+    cursor: pointer;
+    }
+    nav .menu{
+        width: 35px;
+        margin-right: 20px;
+        
+        cursor: pointer;
+        }
+        
+    nav ul{
+        flex: 1;
+        text-align: right;
+    
+    }
+    nav ul li{
+        display: inline-block;
+        list-style-type: none;
+        margin: 0 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+    
+    }
+    .content{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #fff;
+    }
+   

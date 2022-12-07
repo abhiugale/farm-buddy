@@ -6,32 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FARM-BUDDY</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
  <div class="banner">
   <nav>
     <img src="images/logo.png" class="logo">
-  <ul>
-    <li><a href="">Weather</a></li>
-    <li><a href="">Dairy</a></li>
-    <li><a href="">Storage</a></li>
-    <li><a href="">Labours</a></li>
-    <li><a href="">Help</a></li>
-    <li><a href="">About Us</a></li>
-  </ul>
-  <img src="images/menu.png" class="menu">
-  </nav>
+    </nav>
   <div class="content">
-    <h1>Farm-Buddy</h1>
-    <p>Hello,welcome the our Farm-Budyy platform...</p>
-  <div>
-    <a href="user-login.php">
-  <button type="button" class="center"><span></span>User-Login</button>
-    </a>
-    <a href="farmer-login.php">
-  <button type="button" class="center"><span></span>Farmer-Login</button>
-</a>
+    
+  <div class="container">
+    <form action="" method="post" class="text">
+    <label>Username:</label>
+    <input type="text" name="username" placeholder="unsername"><br><br>
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="password"><br>
+    <input type="checkbox">
+    <label>Remeber me</label><br>
+    <button style="text-align:center height:15px">Login</button><br>
+    <a href="user-reg.php">Didn't have an account?</a>
+    
+    </form>
 </div> 
 </div>
 
