@@ -100,13 +100,36 @@
         <!-- end header inner -->
     </header>
     <!-- end header -->
-    <!-- start weather -->
-    <div class="mt-5 ml-5 d-flex justify-content-center">
-    <div id="ww_e0d79c84d295c" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl403"],"font":"Arial","sl_ics":"one","sl_sot":"celsius","cl_bkg":"#00796B","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#FFFFFF","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Weather Data Source: <a href="https://weatherlabs.in/हिंदी/महाराष्ट्र_का_मौसम/10_दिनों/" id="ww_e0d79c84d295c_u" target="_blank">10 दिनों का मौसम</a></div><script async src="https://app1.weatherwidget.org/js/?id=ww_e0d79c84d295c"></script></div>
-    <!-- end weather -->
+    <!-- start Animal -->
+    <form action="" method="post">
+    <div class=" container mt-5 font-weight-bold"><h2>Livestock Filter:</div>
+    <div class="container"> 
+    <h3 class="ml-5"><u>Please Select<u></h3>
+
+           <div class="container ml-5">
+           <input id="ctl00_ContentPlaceHolder1_rdo_0" type="radio" name="animalstype" value="animal" style="" class="ml-5" /><label class="font-weight-bold ml-2">Animal</label>        
+           <input id="ctl00_ContentPlaceHolder1_rdo_1" type="radio" name="animalstype" value="bird" style="margin-left:80px;"  onclick="" /><label class="font-weight-bold ml-2">Bird</label>
+           </div>
+
+	
+     <input type="submit" value="submit" class="bg-success btn btn-outline-dark font-weight-bold " style="margin-left:190px;">
+     <input type="text" value="<?php echo $ABHI;?>" >
+                          
+</div>
+</form>
+<?php
+ if(isset($_POST['submit']))  
+{
+   
+
+}
+?>
+
+    <!-- end Animal -->
+    
 <hr>
-   <!--  footer -->
-   <footr>
+       <!--  footer -->
+       <footr>
         <div class="footer top_layer ">
             <div class="">
 
@@ -135,7 +158,7 @@
                             <h3>Subcribe email</h3>
                             <p>It is very important for the customer to follow us for more information.. </p>
                             <input class="form-control" placeholder="Your Email" type="type" name="Your Email">
-                            <button class="submit-btn">Submit</button>
+                            <button class="submit-btn btn-sm">Submit</button>
                         </div>
                     </div>
 
@@ -172,8 +195,8 @@
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                     <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
                                 </div>
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <button class="send">Send</button>
+                                <div class="address col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                <button class="submit-btn btn-sm">Send</button>
                                 </div>
                             
                         </form>
@@ -190,10 +213,8 @@
            
         </div>
         </div>
-    </footr>
+    </footer>
 
-
-    <!-- end footer -->
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>

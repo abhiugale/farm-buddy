@@ -101,11 +101,12 @@
     </header>
     <!-- end header -->
     <!-- start agreiculutre -->
-    <div class="mt-5 font-weight-bold"><h2>Agriculture Tips:</div>
-    <div class="middle"> 
+    <div class=" container mt-5 font-weight-bold"><h2>Agriculture Tips:</div>
+    <div class="container middle"> 
      <table style="width: 99%; margin: 0px auto;margin-left:2px;"> 
-            <tr>
-                <td>State : </td><td><select name="ctl00$ContentPlaceHolder1$ddlState" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlState\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlState" class="ddlnomination" style="width:250px;">
+        <tr>
+          <td>State : </td>
+    <td><select name="" onchange="" id="" class="" style="width:250px;">
 	<option selected="selected" value="0">--All State--</option>
 	<option value="31">A AND N ISLANDS</option>
 	<option value="01">ANDHRA PRADESH</option>
@@ -165,16 +166,9 @@
 </select></td>
                 <td>Crop Name : </td><td> <select name="ctl00$ContentPlaceHolder1$ddlcrop" id="ctl00_ContentPlaceHolder1_ddlcrop" class="ddlnomination" style="width:250px;">
 	<option selected="selected" value="0">--Select Crop--</option>
-	<option value="H0601">ACID LIME</option>
-	<option value="A0615">AFRICAN SARSON</option>
-	<option value="H0802">AMARANTHUS</option>
-	<option value="H1106">AMARPHOPHALLUS (SURANKAND/ELEPHANT FOOT YAM)</option>
 	<option value="H0621">AMLA </option>
-	<option value="A0626">ANJAN GRASS</option>
 	<option value="H0611">APPLE</option>
 	<option value="H0614">APPLE PULP</option>
-	<option value="H0622">APRICOT</option>
-	<option value="H0623">AREKANUT</option>
 	<option value="H0414">ASH GOURD (PETHA)</option>
 	<option value="A0631">Bajra (Fodder)</option>
 	<option value="A0602">BAJRA NAPIER HYBRID</option>
@@ -184,11 +178,7 @@
 	<option value="A0101">BARLEY (JAU)</option>
 	<option value="H1005">BEET ROOT (GARDEN BEET/STOCK BEET)</option>
 	<option value="A0302">BENGAL GRAM (GRAM/CHICK PEA/KABULI/CHANA)</option>
-	<option value="H0624">BER</option>
-	<option value="A0603">BERSEEM (EGYPTIAN CLOVER)</option>
-	<option value="H0906">BETELVINE</option>
 	<option value="H0704">BHINDI</option>
-	<option value="A0616">BIRDWOOD GRASS</option>
 	<option value="H1305">BISHOPS WEED</option>
 	<option value="H0401">BITTER GOURD</option>
 	<option value="A0301">BLACK GRAM (URD BEAN)</option>
@@ -199,7 +189,6 @@
 	<option value="A0414">BROWN SARSON</option>
 	<option value="A0202">BUCK WHEAT (KASPAT)</option>
 	<option value="A0617">BUFFEL GRASS (ANJAN GRASS)</option>
-	<option value="H0415">BUSH SQUASH</option>
 	<option value="H1201">BUTTER PEA (VEGETABLE)</option>
 	<option value="H0302">CABBAGE</option>
 	<option value="H0701">CAPSICUM</option>
@@ -770,143 +759,31 @@
                         </td><td style="width:20%;">
                             <span id="ctl00_ContentPlaceHolder1_GridView1_ctl23_HyperLink3">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
-			<td style="width:5%;">
-                            123
-                        </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl24_Label2">HP-2 Mid Hills Sub-Humid Zone</span>
-                        </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl24_Label3"></span>
-                        </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl24_Label4">SPINACH</span>
-                        </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl24_Label5">Entire Package</span>
-                        </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl24_HyperLink1" href="POP/2/H0803/Spinch%20Complete%20Package.pdf" target="_blank">Spinch Complete Package.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl24_HyperLink3">Hindi</span>
-                        </td>
-		</tr><tr style="color:#496003;">
-			<td style="width:5%;">
-                            124
-                        </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl25_Label2">HP-1 Sub-Montane and Low Hills Sub-Tropical Zone </span>
-                        </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl25_Label3"></span>
-                        </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl25_Label4">SPINACH</span>
-                        </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl25_Label5">Usage of Fertillizers in the Crop</span>
-                        </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl25_HyperLink1" href="POP/2/H0803/Usage%20of%20Fertilizer%20in%20the%20Crop.pdf" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl25_HyperLink3">Hindi</span>
-                        </td>
-		</tr><tr style="color:#496003;">
-			<td style="width:5%;">
-                            125
-                        </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl26_Label2">HP-1 Sub-Montane and Low Hills Sub-Tropical Zone </span>
-                        </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl26_Label3"></span>
-                        </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl26_Label4">SPINACH</span>
-                        </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl26_Label5">Sowing Practices</span>
-                        </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl26_HyperLink1" href="POP/2/H0803/Sowing%20Practice.pdf" target="_blank">Sowing Practice.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl26_HyperLink3">Hindi</span>
-                        </td>
-		</tr><tr align="left" style="color:#000FFF;background-color:#B7C881;">
-			<td colspan="7"><table border="0">
-				<tr>
-					<td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$1&#39;)" style="color:#000FFF;">1</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$2&#39;)" style="color:#000FFF;">2</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$3&#39;)" style="color:#000FFF;">3</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$4&#39;)" style="color:#000FFF;">4</a></td><td><span>5</span></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$6&#39;)" style="color:#000FFF;">6</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$7&#39;)" style="color:#000FFF;">7</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$8&#39;)" style="color:#000FFF;">8</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$9&#39;)" style="color:#000FFF;">9</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$10&#39;)" style="color:#000FFF;">10</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$11&#39;)" style="color:#000FFF;">...</a></td>
-				</tr>
-			</table></td>
 		</tr>
 	</table>
 </div>
-
-
-                  </td></tr>
-        
-          
-            
-           </table>
+</td></tr>
+        </table>
          
     </div>
     
     <!-- end agriculture -->
     
-    <!-- contact -->
-
-    <div id="contact" class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="title">
-                        <h2>Contact <strong class="black"> Us</strong></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid padddd">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 padddd">
-            <div class="map_section ">
-                
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-
-                            <form class="main_form">
-                                <div class="row">
-
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Name" type="text" name="Name">
-                                    </div>
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Email" type="text" name="Email">
-                                    </div>
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Phone" type="text" name="Phone">
-                                    </div>
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
-                                    </div>
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <button class="send">Send</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div id="map">
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-   
-    <!-- end contact -->
-
-    <!-- footer -->
-    <!--  footer -->
-    <footr>
+<hr>
+   <!--  footer -->
+   <footr>
         <div class="footer top_layer ">
-            <div class="container">
+            <div class="">
 
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12">
                         <div class="address">
-                            <a href="index.html"> <img src="images/logos.png" alt="logo" /></a>
-                            <p>"Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals & happiness."  </p>
+                           <figure> <a href="index.html"> <img src="images/logos.png" alt="logo" /></a>
+                            <h5 class="text-white text-center">"Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals & happiness."  </h5>
+                            </figure>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12">
                         <div class="address">
                             <h3>Quick links</h3>
                             <ul class="Links_footer">
@@ -918,7 +795,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12">
                         <div class="address">
                             <h3>Subcribe email</h3>
                             <p>It is very important for the customer to follow us for more information.. </p>
@@ -927,7 +804,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12">
                         <div class="address">
                             <h3>Contact Us</h3>
 
@@ -942,17 +819,44 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="address">
+                            <h3>Send Message</h3>
+
+                            <form class="">
+                       
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                    <input class="form-control" placeholder="Name" type="text" name="Name">
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                    <input class="form-control" placeholder="Email" type="text" name="Email">
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                    <input class="form-control" placeholder="Phone" type="text" name="Phone">
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                    <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                    <button class="send">Send</button>
+                                </div>
+                            
+                        </form>
+                        </div>
+                    </div>
+                   </div>
                 </div>
             </div>
         </div>
      
         <div class="copyright">
             <div class="container">
-                <p>© 2022 All Rights Reserved. Design By<a href="#"> Thrice As Nice</a></p>
+                <p>© 2022 All Rights Reserved. Design By--ABHI</p>
            
         </div>
         </div>
     </footr>
+
 
     <!-- end footer -->
     <!-- Javascript files-->
