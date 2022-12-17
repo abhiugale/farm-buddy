@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/login.css">
     <!-- Responsive-->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- fevicon -->
@@ -74,12 +75,47 @@
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
                                                 <li class="active"> <a href="index.html">Home</a> </li>
-                                                <li> <a href="agriculture.php">Agriculture </a> </li>
+                                                <li> <a href="agriculture.php" style="--hover-color: green">Agriculture </a> </li>
                                                 <li><a href="animal.php">Animal Husbandary</a></li>
                                                 <li><a href="weather.php">Weather</a></li>
                                                 <li><a href="Product.php">Product</a></li>
-                                                
-
+                                               <li class="login">
+                                                <!--Login/signup-->
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="modal-box">
+                                                                <!-- Button trigger modal -->
+                                                                <button type="button" class="btn btn-outline-success text-white" data-toggle="modal" data-target="#myModal">
+                                                                  Login/Signup
+                                                                </button>
+                                                 
+                                                                <!-- Modal -->
+                                                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                                    <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content clearfix">
+                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                                                            <div class="modal-body">
+                                                                                <h3 class="title">Login/Signup</h3>
+                                                                                <p class="description">Login here Using Email & Password</p>
+                                                                                <div class="form-group">
+                                                                                    <input type="email" class="" placeholder="Enter email"><br>
+                                                                                    <input type="password" class="" placeholder="Password"><br>
+                                                                                    <input type="checkbox">
+                                                                                    <label>Remember me</label>
+                                                                                </div>
+                                                                                <a href="" class="forgot-pass">Forgot Password?</a>
+                                                                                <button class="btn">Login</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                                 <!--Login/signup-->
                                             </ul>
                                         </nav>
                                     </div>
@@ -187,7 +223,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box display-6">
                         <i><img src="images/1.png" class="border border-3 border-success"alt="#"/></i>
-                        <span>100 tonne</span>
+                        <span>100 ton</span>
                         <h3>Gross</h3>
                     </div>
                 </div>
@@ -212,7 +248,7 @@
                         <h3>Units of Machinaries</h3>
                     </div>
                 </div>
-                <P class="text-white">For Detailed Stats CLick On Images...</P>
+                <a href="" class="container text-warning"><u>For Detailed Stats CLick On Images...</u></a>
             </div>
         </div>
     </div>
