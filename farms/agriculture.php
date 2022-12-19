@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>FARM-BUDDY</title>
-    <meta name="keywords" content="">
+    <link rel="icon" type="image/x-icon" href="images/weblogo.png">
+    <title>Farm-Buddy</title>    <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
