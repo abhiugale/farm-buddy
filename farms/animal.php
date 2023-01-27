@@ -73,11 +73,11 @@
                                     <div class="limit-box">
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
-                                                <li class="active"> <a href="index.html">Home</a> </li>
-                                                <li> <a href="agriculture.php">Agriculture </a> </li>
-                                                <li><a href="animal.php">Animal Husbandary</a></li>
-                                                <li><a href="weather.php">Weather</a></li>
-                                                <li><a href="Product.php">Product</a></li>
+                                                <li class="active"> <a href="index.html" class=" btn-outline-success">Home</a> </li>
+                                                <li> <a href="agriculture.php" class=" btn-outline-success">Agriculture </a> </li>
+                                                <li><a href="animal.php" class=" btn-outline-success">Animal Husbandary</a></li>
+                                                <li><a href="weather.php" class=" btn-outline-success">Weather</a></li>
+                                                <li><a href="product.php" class=" btn-outline-success">Product</a></li>
                                                 
 
                                             </ul>
@@ -101,29 +101,7 @@
     </header>
     <!-- end header -->
     <!-- start Animal -->
-    <form action="" method="post">
-    <div class=" container mt-5 font-weight-bold"><h2>Livestock Filter:</div>
-    <div class="container"> 
-    <h3 class="ml-5"><u>Please Select<u></h3>
-
-           <div class="container ml-5">
-           <input id="ctl00_ContentPlaceHolder1_rdo_0" type="radio" name="animalstype" value="animal" style="" class="ml-5" /><label class="font-weight-bold ml-2">Animal</label>        
-           <input id="ctl00_ContentPlaceHolder1_rdo_1" type="radio" name="animalstype" value="bird" style="margin-left:80px;"  onclick="" /><label class="font-weight-bold ml-2">Bird</label>
-           </div>
-
-	
-     <input type="submit" value="submit" class="bg-success btn btn-outline-dark font-weight-bold " style="margin-left:190px;">
-     <input type="text" value="<?php echo $ABHI;?>" >
-                          
-</div>
-</form>
-<?php
- if(isset($_POST['submit']))  
-{
-   
-
-}
-?>
+    
 
     <!-- end Animal -->
     
