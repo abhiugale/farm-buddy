@@ -73,11 +73,11 @@
                                     <div class="limit-box">
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
-                                                <li class="active"> <a href="index.html">Home</a> </li>
-                                                <li> <a href="agriculture.php">Agriculture </a> </li>
-                                                <li><a href="animal.php">Animal Husbandary</a></li>
-                                                <li><a href="weather.php">Weather</a></li>
-                                                <li><a href="Product.php">Product</a></li>
+                                                <li class="active"> <a href="index.html" class=" btn-outline-success">Home</a> </li>
+                                                <li> <a href="agriculture.php" class=" btn-outline-success">Agriculture </a> </li>
+                                                <li><a href="animal.php" class=" btn-outline-success">Animal Husbandary</a></li>
+                                                <li><a href="weather.php" class=" btn-outline-success">Weather</a></li>
+                                                <li><a href="product.php" class=" btn-outline-success">Product</a></li>
                                                 
 
                                             </ul>
@@ -100,8 +100,9 @@
         <!-- end header inner -->
     </header>
     <!-- end header -->
-    <!-- start agreiculutre -->
-    <div class=" container mt-5 font-weight-bold"><h2>Agriculture Tips:</div>
+  <!-- start agriculutre -->
+   <!-- start agriculutre -->
+   <div class=" container mt-5 font-weight-bold"><h2>Agriculture Tips:</div>
     <div class="container middle"> 
      <table style="width: 99%; margin: 0px auto;margin-left:2px;"> 
         <tr>
@@ -398,304 +399,304 @@
 </select></td>
                 <td><input type="submit" name="submit" style="width:60px;border-width:0px;" /></td>
             </tr>
-            <tr><td colspan="2"><input type="submit" name="ctl00$ContentPlaceHolder1$View_report" value="View Report" id="ctl00_ContentPlaceHolder1_View_report" class="btn_left" /></td>
+            <tr><td colspan="2"><input type="submit" name="" value="View Report" id="" class="btn_left" /></td>
              
             </tr>
 
               <tr><td colspan="4">
                   <div>
-	<table class="table" cellspacing="0" cellpadding="2" align="Center" rules="cols" border="1" id="ctl00_ContentPlaceHolder1_GridView1" style="color:Black;background-color:White;border-color:#DEDFDE;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
+	<table class="table" cellspacing="0" cellpadding="2" align="Center" rules="cols" border="1" id="" style="color:Black;background-color:White;border-color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2DEDFDE;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
 		<tr style="font-size:12px;">
 			<th scope="col">S.No.</th><th scope="col">NARP Zone</th><th scope="col">Season</th><th scope="col">Crop Name</th><th scope="col">Crop Info Type</th><th scope="col">File Name</th><th scope="col">Language Type</th>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             101
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl02_Label2">HP-1 Sub-Montane and Low Hills Sub-Tropical Zone </span>
+                            <span id="">HP-1 Sub-Montane and Low Hills Sub-Tropical Zone </span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl02_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl02_Label4">FABA BEAN (HORSE BEAN/WINDSOR BEAN)</span>
+                            <span id="">FABA BEAN (HORSE BEAN/WINDSOR BEAN)</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl02_Label5">Crop Seed</span>
+                            <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl02_HyperLink1" href="POP/2/A0304/Crop%20Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl02_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             102
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl03_Label2">HP-1 Sub-Montane and Low Hills Sub-Tropical Zone </span>
+                            <span id="">HP-1 Sub-Montane and Low Hills Sub-Tropical Zone </span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl03_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl03_Label4">FABA BEAN (HORSE BEAN/WINDSOR BEAN)</span>
+                            <span id="">FABA BEAN (HORSE BEAN/WINDSOR BEAN)</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl03_Label5">Crop Varieties</span>
+                            <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl03_HyperLink1" href="POP/2/A0304/Zone%201.pdf" target="_blank">Zone 1.pdf</a>
+                            <a id="" href="#" target="_blank">Zone 1.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl03_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             103
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl04_Label2">HP-1 Sub-Montane and Low Hills Sub-Tropical Zone </span>
+                            <span id="">HP-1 Sub-Montane and Low Hills Sub-Tropical Zone </span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl04_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl04_Label4">FABA BEAN (HORSE BEAN/WINDSOR BEAN)</span>
+                            <span id="">FABA BEAN (HORSE BEAN/WINDSOR BEAN)</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl04_Label5">Entire Package</span>
+                            <span id="">Entire Package</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl04_HyperLink1" href="POP/2/A0304/French%20Bean%20Comple%20Package.pdf" target="_blank">French Bean Comple Package.pdf</a>
+                            <a id="" href="#" target="_blank">French Bean Comple Package.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl04_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             104
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl05_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl05_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl05_Label4">SUGAR BEET</span>
+                            <span id="">SUGAR BEET</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl05_Label5">Usage of Fertillizers in the Crop</span>
+                            <span id="">Usage of Fertillizers in the Crop</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl05_HyperLink1" href="POP/2/A0703/Usage%20of%20Fertilzer%20of%20the%20Crop.pdf" target="_blank">Usage of Fertilzer of the Crop.pdf</a>
+                            <a id="" href="#" target="_blank">Usage of Fertilzer of the Crop.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl05_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style=";">
 			<td style="width:5%;">
                             105
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl06_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl06_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl06_Label4">SUGAR BEET</span>
+                            <span id="">SUGAR BEET</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl06_Label5">Sowing Practices</span>
+                            <span id="">Sowing Practices</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl06_HyperLink1" href="POP/2/A0703/Sowing%20Practice.pdf" target="_blank">Sowing Practice.pdf</a>
+                            <a id="" href="#" target="_blank">Sowing Practice.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl06_HyperLink3">Gujarati</span>
+                            <span id="">Gujarati</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             106
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl07_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl07_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl07_Label4">SUGAR BEET</span>
+                            <span id="">SUGAR BEET</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl07_Label5">Crop Seed</span>
+                            <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl07_HyperLink1" href="POP/2/A0703/Crop%20Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl07_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             107
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl08_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl08_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl08_Label4">SUGAR BEET</span>
+                            <span id="">SUGAR BEET</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl08_Label5">Crop Varieties</span>
+                            <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl08_HyperLink1" href="POP/2/A0703/Zone%204.pdf" target="_blank">Zone 4.pdf</a>
+                            <a id="" href="#" target="_blank">Zone 4.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl08_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             108
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl09_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl09_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl09_Label4">SUGAR BEET</span>
+                            <span id="">SUGAR BEET</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl09_Label5">Entire Package</span>
+                            <span id="">Entire Package</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl09_HyperLink1" href="POP/2/A0703/Sugar%20Beet%20Complete%20Package.pdf" target="_blank">Sugar Beet Complete Package.pdf</a>
+                            <a id="" href="#" target="_blank">Sugar Beet Complete Package.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl09_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             109
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl10_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl10_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl10_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl10_Label5">Usage of Fertillizers in the Crop</span>
+                            <span id="">Usage of Fertillizers in the Crop</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl10_HyperLink1" href="POP/2/H0803/Usage%20of%20Fertilizer%20in%20the%20Crop.pdf" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
+                            <a id="" href="#" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl10_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             110
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl11_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl11_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl11_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl11_Label5">Sowing Practices</span>
+                            <span id="">Sowing Practices</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl11_HyperLink1" href="POP/2/H0803/Sowing%20Practice.pdf" target="_blank">Sowing Practice.pdf</a>
+                            <a id="" href="#" target="_blank">Sowing Practice.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl11_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             111
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl12_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl12_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl12_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl12_Label5">Crop Varieties</span>
+                            <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl12_HyperLink1" href="POP/2/H0803/Zone%204.pdf" target="_blank">Zone 4.pdf</a>
+                            <a id="" href="#" target="_blank">Zone 4.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl12_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             112
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl13_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl13_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl13_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl13_Label5">Crop Seed</span>
+                            <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl13_HyperLink1" href="POP/2/H0803/Crop%20Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl13_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             113
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl14_Label2">HP-4 High Hills Temperate Dry Zone</span>
+                            <span id="">HP-4 High Hills Temperate Dry Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl14_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl14_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl14_Label5">Entire Package</span>
+                            <span id="">Entire Package</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl14_HyperLink1" href="POP/2/H0803/Spinch%20Complete%20Package.pdf" target="_blank">Spinch Complete Package.pdf</a>
+                            <a id="" href="#" target="_blank">Spinch Complete Package.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl14_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             114
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl15_Label2">HP-3 High Hills Temperate Wet Zone </span>
+                            <span id="">HP-3 High Hills Temperate Wet Zone </span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl15_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl15_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl15_Label5">Usage of Fertillizers in the Crop</span>
+                            <span id="">Usage of Fertillizers in the Crop</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl15_HyperLink1" href="POP/2/H0803/Usage%20of%20Fertilizer%20in%20the%20Crop.pdf" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
+                            <a id="" href="#" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl15_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             115
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl16_Label2">HP-3 High Hills Temperate Wet Zone </span>
+                            <span id="">HP-3 High Hills Temperate Wet Zone </span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl16_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl16_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl16_Label5">Sowing Practices</span>
+                            <span id="">Sowing Practices</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl16_HyperLink1" href="POP/2/H0803/Sowing%20Practice.pdf" target="_blank">Sowing Practice.pdf</a>
+                            <a id="" href="#" target="_blank">Sowing Practice.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl16_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             116
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl17_Label2">HP-3 High Hills Temperate Wet Zone </span>
+                            <span id="">HP-3 High Hills Temperate Wet Zone </span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl17_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl17_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl17_Label5">Crop Varieties</span>
+                            <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl17_HyperLink1" href="POP/2/H0803/Zone%203.pdf" target="_blank">Zone 3.pdf</a>
+                            <a id="" href="#" target="_blank">Zone 3.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl17_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             117
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl18_Label2">HP-3 High Hills Temperate Wet Zone </span>
+                            <span id="">HP-3 High Hills Temperate Wet Zone </span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl18_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl18_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl18_Label5">Crop Seed</span>
+                            <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl18_HyperLink1" href="POP/2/H0803/Crop%20Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl18_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             118
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl19_Label2">HP-3 High Hills Temperate Wet Zone </span>
+                            <span id="">HP-3 High Hills Temperate Wet Zone </span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl19_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl19_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl19_Label5">Entire Package</span>
+                            <span id="">Entire Package</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl19_HyperLink1" href="POP/2/H0803/Spinch%20Complete%20Package.pdf" target="_blank">Spinch Complete Package.pdf</a>
+                            <a id="" href="#" target="_blank">Spinch Complete Package.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl19_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="">
 			<td style="width:5%;">
                             119
                         </td><td style="width:20%;">
@@ -707,11 +708,11 @@
                         </td><td style="width:25%;">
                             <span id="ctl00_ContentPlaceHolder1_GridView1_ctl20_Label5">Usage of Fertillizers in the Crop</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl20_HyperLink1" href="POP/2/H0803/Usage%20of%20Fertilizer%20in%20the%20Crop.pdf" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
+                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl20_HyperLink1" href="#" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
                         </td><td style="width:20%;">
                             <span id="ctl00_ContentPlaceHolder1_GridView1_ctl20_HyperLink3">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2496003;">
 			<td style="width:5%;">
                             120
                         </td><td style="width:20%;">
@@ -723,41 +724,41 @@
                         </td><td style="width:25%;">
                             <span id="ctl00_ContentPlaceHolder1_GridView1_ctl21_Label5">Sowing Practices</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl21_HyperLink1" href="POP/2/H0803/Sowing%20Practice.pdf" target="_blank">Sowing Practice.pdf</a>
+                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl21_HyperLink1" href="#" target="_blank">Sowing Practice.pdf</a>
                         </td><td style="width:20%;">
                             <span id="ctl00_ContentPlaceHolder1_GridView1_ctl21_HyperLink3">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2496003;">
 			<td style="width:5%;">
                             121
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2">HP-2 Mid Hills Sub-Humid Zone</span>
+                            <span id="#">HP-2 Mid Hills Sub-Humid Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl22_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl22_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl22_Label5">Crop Varieties</span>
+                            <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl22_HyperLink1" href="POP/2/H0803/Zone%202.pdf" target="_blank">Zone 2.pdf</a>
+                            <a id="" href="#" target="_blank">Zone 2.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl22_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:#496003;">
+		</tr><tr style="color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2496003;">
 			<td style="width:5%;">
                             122
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl23_Label2">HP-2 Mid Hills Sub-Humid Zone</span>
+                            <span id="">HP-2 Mid Hills Sub-Humid Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl23_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl23_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl23_Label5">Crop Seed</span>
+                            <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl23_HyperLink1" href="POP/2/H0803/Crop%20Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl23_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
 		</tr>
 	</table>
@@ -768,7 +769,8 @@
     </div>
     
     <!-- end agriculture -->
-    
+  
+  <!-- end agriculutre -->
 <hr>
    <!--  footer -->
    <footr>
