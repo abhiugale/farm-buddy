@@ -101,7 +101,19 @@
     </header>
     <!-- end header -->
     <!-- start Animal -->
-    
+    <div class="mt-5">
+    Select Animal Category:
+<div class="ml-5">
+    <select class="" name="animal">
+        <option>--Select--</option>
+        <option>Cattle</option>
+        <option>Buffaloes</option>
+        <option>Goat's</option>
+        <option>Sheep</option>
+        <option>Pig's</option>
+        <option>Poultry</option>
+    </select>
+    </div>
 
     <!-- end Animal -->
     
