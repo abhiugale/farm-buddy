@@ -256,7 +256,7 @@
     						<h3><a href="#">Brocolli</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>₹120.00</span></p>
+		    						<p class="price"><span>₹100.00</span></p>
 		    					</div>
 	    					</div>
     						<div class="bottom-area d-flex px-3">
