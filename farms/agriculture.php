@@ -102,11 +102,11 @@
     <!-- end header -->
   <!-- start agriculutre -->
    <!-- start agriculutre -->
-   <div class=" container mt-5 font-weight-bold"><h2>Agriculture Tips:</div>
+   <div class=" container mt-5 font-weight-bold"><h2>Agriculture Tips:</h2></div>
     <div class="container middle"> 
      <table style="width: 99%; margin: 0px auto;margin-left:2px;"> 
         <tr>
-          <td>State : </td>
+          <td><b>State :<b> </td>
     <td><select name="" onchange="" id="" class="" style="width:250px;">
 	<option selected="selected" value="0">--All State--</option>
 	<option value="31">A AND N ISLANDS</option>
@@ -148,7 +148,7 @@
 	<option value="21">WEST BENGAL</option>
 
 </select></td>
-                <td>Season : </td>
+                <td><b>Season : <b></td>
                 <td> 
                     <select name="ctl00$ContentPlaceHolder1$ddlseason" id="ctl00_ContentPlaceHolder1_ddlseason" class="ddlnomination" style="width:250px;">
 	<option selected="selected" value="0">--Select--</option>
@@ -161,11 +161,11 @@
                 </td>
             </tr>
             <tr>
-                <td>NARP Zone : </td><td> <select name="ctl00$ContentPlaceHolder1$ddlzone" id="ctl00_ContentPlaceHolder1_ddlzone" class="ddlnomination" style="width:250px;">
+                <td><b>NARP Zone :<b> </td><td> <select name="ctl00$ContentPlaceHolder1$ddlzone" id="ctl00_ContentPlaceHolder1_ddlzone" class="ddlnomination" style="width:250px;">
 	<option selected="selected" value="0">--Entire State--</option>
 
 </select></td>
-                <td>Crop Name : </td><td> <select name="ctl00$ContentPlaceHolder1$ddlcrop" id="ctl00_ContentPlaceHolder1_ddlcrop" class="ddlnomination" style="width:250px;">
+                <td><b>Crop Name :<b> </td><td> <select name="ctl00$ContentPlaceHolder1$ddlcrop" id="ctl00_ContentPlaceHolder1_ddlcrop" class="ddlnomination" style="width:250px;">
 	<option selected="selected" value="0">--Select Crop--</option>
 	<option value="H0621">AMLA </option>
 	<option value="H0611">APPLE</option>
@@ -377,7 +377,7 @@
 </select></td>
             </tr>
             <tr>
-                <td>Crop Info : </td><td><select name="ctl00$ContentPlaceHolder1$ddlcroptype" id="ctl00_ContentPlaceHolder1_ddlcroptype" class="ddlnomination" style="width:250px;">
+                <td><b>Crop Info :<b> </td><td><select name="" id="" class="ddlnomination" style="width:250px;">
 	<option selected="selected" value="0">--Select Croptype Info.--</option>
 	<option value="16">Organic POP</option>
 	<option value="15">Entire Package</option>
@@ -397,18 +397,18 @@
 	<option value="5">Weed Control</option>
 
 </select></td>
-                <td><input type="submit" name="submit" style="width:60px;border-width:0px;" /></td>
-            </tr>
-            <tr><td colspan="2"><input type="submit" name="" value="View Report" id="" class="btn_left" /></td>
+              <!--  <td colspan="2"><input type="submit" name="" value="" id="" class="btn_left" /></td>
+            </tr>-->
+            <tr><td colspan="2"><input type="submit" name="" value="View Report" id="" class="btn_left bg-success btn-border-2 btn-outline-dark btn-rounded p-1 ml-5 mt-2" /></td>
              
             </tr>
 
               <tr><td colspan="4">
                   <div>
-	<table class="table" cellspacing="0" cellpadding="2" align="Center" rules="cols" border="1" id="" style="color:Black;background-color:White;border-color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2DEDFDE;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
-		<tr style="font-size:12px;">
+	<table class="table border border-dark" cellspacing="0" cellpadding="2" align="Center" rules="cols" border="1" id="" style="color:Black;background-color:White;border-color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2DEDFDE;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
+		<tr class="bg-success border border-dark" style="font-size:12px;">
 			<th scope="col">S.No.</th><th scope="col">NARP Zone</th><th scope="col">Season</th><th scope="col">Crop Name</th><th scope="col">Crop Info Type</th><th scope="col">File Name</th><th scope="col">Language Type</th>
-		</tr><tr style="">
+		</tr><tr class="border border-dark" style="">
 			<td style="width:5%;">
                             101
                         </td><td style="width:20%;">
@@ -416,11 +416,11 @@
                         </td><td style="width:5%;">
                             <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="">FABA BEAN (HORSE BEAN/WINDSOR BEAN)</span>
+                            <span id="">WHEAT</span>
                         </td><td style="width:25%;">
                             <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -432,11 +432,11 @@
                         </td><td style="width:5%;">
                             <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="">FABA BEAN (HORSE BEAN/WINDSOR BEAN)</span>
+                            <span id="">WHEAT</span>
                         </td><td style="width:25%;">
                             <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Zone 1.pdf</a>
+                            <a id="" href="pdf/zone.pdf" target="_blank">Zone 1.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -448,11 +448,11 @@
                         </td><td style="width:5%;">
                             <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="">FABA BEAN (HORSE BEAN/WINDSOR BEAN)</span>
+                            <span id="">WHEAT</span>
                         </td><td style="width:25%;">
                             <span id="">Entire Package</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">French Bean Comple Package.pdf</a>
+                            <a id="" href="pdf/French Bean Comple Package.pdf" target="_blank">French Bean Comple Package.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -468,7 +468,7 @@
                         </td><td style="width:25%;">
                             <span id="">Usage of Fertillizers in the Crop</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Usage of Fertilzer of the Crop.pdf</a>
+                            <a id="" href="pdf/Usage of Fertilizer in the Crop.pdf" target="_blank">Usage of Fertilzer of the Crop.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -484,7 +484,7 @@
                         </td><td style="width:25%;">
                             <span id="">Sowing Practices</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Sowing Practice.pdf</a>
+                            <a id="" href="pdf/Sowing Practice (2).pdf" target="_blank">Sowing Practice.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Gujarati</span>
                         </td>
@@ -500,7 +500,7 @@
                         </td><td style="width:25%;">
                             <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="pdf/Crop Seed (2).pdf" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -516,7 +516,7 @@
                         </td><td style="width:25%;">
                             <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Zone 4.pdf</a>
+                            <a id="" href="pdf/Zone 4.pdf" target="_blank">Zone 4.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -532,7 +532,7 @@
                         </td><td style="width:25%;">
                             <span id="">Entire Package</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Sugar Beet Complete Package.pdf</a>
+                            <a id="" href="pdf/Sugar Beet Complete Package.pdf" target="_blank">Sugar Beet Complete Package.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -548,7 +548,7 @@
                         </td><td style="width:25%;">
                             <span id="">Usage of Fertillizers in the Crop</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
+                            <a id="" href="pdf/Usage of Fertilizer in the Crop (1).pdf" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -564,7 +564,7 @@
                         </td><td style="width:25%;">
                             <span id="">Sowing Practices</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Sowing Practice.pdf</a>
+                            <a id="" href="pdf/Sowing Practice (3).pdf" target="_blank">Sowing Practice.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -580,7 +580,7 @@
                         </td><td style="width:25%;">
                             <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Zone 4.pdf</a>
+                            <a id="" href="pdf/Zone 4.pdf" target="_blank">Zone 4.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -596,7 +596,7 @@
                         </td><td style="width:25%;">
                             <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="pdf/Crop Seed (2).pdf" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -612,7 +612,7 @@
                         </td><td style="width:25%;">
                             <span id="">Entire Package</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Spinch Complete Package.pdf</a>
+                            <a id="" href="pdf/Spinch Complete Package.pdf" target="_blank">Spinch Complete Package.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -628,7 +628,7 @@
                         </td><td style="width:25%;">
                             <span id="">Usage of Fertillizers in the Crop</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
+                            <a id="" href="pdf/Usage of Fertilizer in the Crop (1).pdf" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -644,7 +644,7 @@
                         </td><td style="width:25%;">
                             <span id="">Sowing Practices</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Sowing Practice.pdf</a>
+                            <a id="" href="pdf/Sowing Practice (3).pdf" target="_blank">Sowing Practice.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -660,7 +660,7 @@
                         </td><td style="width:25%;">
                             <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Zone 3.pdf</a>
+                            <a id="" href="pdf/Zone 3.pdf" target="_blank">Zone 3.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -676,7 +676,7 @@
                         </td><td style="width:25%;">
                             <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="pdf/Crop Seed (3).pdf" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -692,7 +692,7 @@
                         </td><td style="width:25%;">
                             <span id="">Entire Package</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Spinch Complete Package.pdf</a>
+                            <a id="" href="pdf/Spinch Complete Package.pdf" target="_blank">Spinch Complete Package.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -700,35 +700,35 @@
 			<td style="width:5%;">
                             119
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl20_Label2">HP-2 Mid Hills Sub-Humid Zone</span>
+                            <span id="">HP-2 Mid Hills Sub-Humid Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl20_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl20_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl20_Label5">Usage of Fertillizers in the Crop</span>
+                            <span id="">Usage of Fertillizers in the Crop</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl20_HyperLink1" href="#" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
+                            <a id="" href="pdf/Usage of Fertilizer in the Crop (1).pdf" target="_blank">Usage of Fertilizer in the Crop.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl20_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2496003;">
+		</tr><tr style="color:;">
 			<td style="width:5%;">
                             120
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl21_Label2">HP-2 Mid Hills Sub-Humid Zone</span>
+                            <span id="">HP-2 Mid Hills Sub-Humid Zone</span>
                         </td><td style="width:5%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl21_Label3"></span>
+                            <span id=""></span>
                         </td><td style="width:15%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl21_Label4">SPINACH</span>
+                            <span id="">SPINACH</span>
                         </td><td style="width:25%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl21_Label5">Sowing Practices</span>
+                            <span id="">Sowing Practices</span>
                         </td><td style="width:20%;">
-                            <a id="ctl00_ContentPlaceHolder1_GridView1_ctl21_HyperLink1" href="#" target="_blank">Sowing Practice.pdf</a>
+                            <a id="" href="pdf/Sowing Practice (3).pdf" target="_blank">Sowing Practice.pdf</a>
                         </td><td style="width:20%;">
-                            <span id="ctl00_ContentPlaceHolder1_GridView1_ctl21_HyperLink3">Hindi</span>
+                            <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2496003;">
+		</tr><tr style="color:;">
 			<td style="width:5%;">
                             121
                         </td><td style="width:20%;">
@@ -740,11 +740,11 @@
                         </td><td style="width:25%;">
                             <span id="">Crop Varieties</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Zone 2.pdf</a>
+                            <a id="" href="pdf/Zone 3.pdf" target="_blank">Zone 2.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
-		</tr><tr style="color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2496003;">
+		</tr><tr class="border border-dark" style="color:;">
 			<td style="width:5%;">
                             122
                         </td><td style="width:20%;">
@@ -756,10 +756,11 @@
                         </td><td style="width:25%;">
                             <span id="">Crop Seed</span>
                         </td><td style="width:20%;">
-                            <a id="" href="#" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="pdf/Crop Seed (2).pdf" target="_blank">Crop Seed.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
+            
 		</tr>
 	</table>
 </div>
@@ -915,6 +916,61 @@
     <!-- google map js -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
     <!-- end google map js -->
+
+
+    <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+		$(document).ready(function(){
+
+		var quantitiy=0;
+		   $('.quantity-right-plus').click(function(e){
+		        
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        var quantity = parseInt($('#quantity').val());
+		        
+		        // If is not undefined
+		            
+		            $('#quantity').val(quantity + 1);
+
+		          
+		            // Increment
+		        
+		    });
+
+		     $('.quantity-left-minus').click(function(e){
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        var quantity = parseInt($('#quantity').val());
+		        
+		        // If is not undefined
+		      
+		            // Increment
+		            if(quantity>0){
+		            $('#quantity').val(quantity - 1);
+		            }
+		    });
+		    
+		});
+	</script>
 </body>
 
 </html>

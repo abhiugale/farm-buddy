@@ -26,7 +26,11 @@
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-    <!--[if lt IE 9]>
+	<link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" href="fonts/flaticon/fonts/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
@@ -78,6 +82,7 @@
                                                 <li><a href="animal.php" class=" btn-outline-success">Animal Husbandary</a></li>
                                                 <li><a href="weather.php" class=" btn-outline-success">Weather</a></li>
                                                 <li><a href="product.php" class=" btn-outline-success">Product</a></li>
+												<li><a href="product.php" class=" btn-outline-success fa-2x"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a></li>
                                                 
 
                                             </ul>
@@ -100,13 +105,110 @@
         <!-- end header inner -->
     </header>
     <!-- end header -->
-    <!-- start Animal -->
-    <div class=" container mt-5 font-weight-bold"><h2>Veternary Tips/Care:</h2></div>
-    <div class="container middle"> 
-     <table style="width: 99%; margin: 0px auto;margin-left:2px;"> 
-        <tr>
-          <td class="text-dark"><b>State :<b> </td>
-    <td><select name="" onchange="" id="" class="" style="width:250px;">
+    <!-- start cart -->
+   
+    <section class="ftco-section ftco-cart">
+			<div class="container mt-5">
+				<div class="row">
+    			<div class="col-md-12 ftco-animate">
+    				<div class="cart-list">
+	    				<table class="table">
+						    <thead class="thead-primary">
+						      <tr class="text-center text-dark bg-success">
+						        <th>&nbsp;</th>
+						        <th>&nbsp;</th>
+						        <th>Product name</th>
+						        <th>Price</th>
+						        <th>Quantity</th>
+						        <th>Total</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						      <tr class="text-center">
+						        <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
+						        
+						        <td class="image-prod"><div class="img"> <img src="images/product-1.jpg"  width="100"height="100"  class="img-fluid " alt="Colorlib Template"> </div></td>
+						        
+						        <td class="product-name">
+						        	<h3>Capsicum</h3>
+						        	<p>Fresh Vegetables</p>
+						        </td>
+						        
+						        <td class="price">₹120</td>
+						        
+						        <td class="quantity">
+						        	<div class="input-group mb-3">
+					             	<input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+					          	</div>
+					          </td>
+						        
+						        <td class="total">₹120</td>
+						      </tr><!-- END TR-->
+
+						      <tr class="text-center">
+						        <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
+						        
+						        <td class="image-prod"><div class="img"><img src="images/product-7.jpg"  width="100"height="100"  class="img-fluid " alt="Colorlib Template"></div></td>
+						        
+						        <td class="product-name">
+						        	<h3>Carrot</h3>
+						        	<p>Fresh vegetables</p>
+						        </td>
+						        
+						        <td class="price">₹15.70</td>
+						        
+						        <td class="quantity">
+						        	<div class="input-group mb-3">
+					             	<input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+					          	</div>
+					          </td>
+						        
+						        <td class="total">₹15.70</td>
+						      </tr><!-- END TR-->
+						    </tbody>
+						  </table>
+					  </div>
+    			</div>
+    		</div>
+    		<div class="row justify-content-end">
+    			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+    				<div class="cart-total mb-3">
+    					<h3>Coupon Code</h3>
+    					<p>Enter your coupon code if you have one</p>
+  						<form action="#" class="info">
+	              <div class="form-group">
+	              	<label for="">Coupon code</label>
+	                <input type="text" class="form-control text-left px-3 border" placeholder="Enter coupon code">
+	              </div>
+	            </form>
+    				</div>
+    				<button><a href="checkout.html" class="btn btn-black py-3 px-5 bg-success btn-outline-dark"><b>Apply Coupon</b></a></button>
+    			</div>
+    			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+    				<div class="cart-total mb-3">
+    					<h3>Shipping Address</h3>
+    					<p>Enter your destination to get a shipping</p>
+  						<form action="#" class="info">
+	              <div class="form-group">
+	                <input type="text" class="form-control text-left px-3 border" placeholder= "Your Name" required="required">
+	              </div>
+	              <div class="form-group">
+	                <input type="text" class="form-control text-left px-3 border" placeholder="Mobile Number">
+	              </div>
+	              <div class="form-group">
+	                <input type="text" class="form-control text-left px-3 border" placeholder="Pin Code">
+	              </div>
+                  <div class="form-group">
+	                <input type="text" class="form-control text-left px-3 border" placeholder="Locality">
+	              </div>
+                  <div class="form-group">
+	                <input type="text" class="form-control text-left px-3 border" placeholder="Address">
+	              </div>
+                  <div class="form-group">
+	                <input type="text" class="form-control text-left px-3 border" placeholder="City/Distric/Town">
+	              </div>
+                  <div class="form-group">
+                      <select name="" onchange="" id="" class="" style="width:250px;">
 	<option selected="selected" value="0">--All State--</option>
 	<option value="31">A AND N ISLANDS</option>
 	<option value="01">ANDHRA PRADESH</option>
@@ -146,227 +248,51 @@
 	<option value="25">UTTARAKHAND</option>
 	<option value="21">WEST BENGAL</option>
 
-</select></td>
-                <td class="text-dark"><b>Select District : <b></td>
-                <td> 
-                    <select name="" id="" class="ddlnomination" style="width:250px;">
-	<option selected="selected" value="0">--Select--</option>
-	<option value="K"></option>
-	<option value="R"></option>
-	<option value="S"></option>
-
 </select>
-                    
-                </td>
-                <td class="text-dark"><b>Select Animal : <b></td>
-                <td> 
-                    <select name="" id="" class="ddlnomination" style="width:250px;">
-	                    <option selected="selected" value="0">--Select--</option>
-                        <option>Cattle</option>
-                        <option>Buffaloes</option>
-                        <option>Goat's</option>
-                        <option>Sheep</option>
-                        <option>Pig's</option>
-                        <option>Poultry</option>
+	              </div>
+                  <div class="form-group">
+	                <input type="text" class="form-control text-left px-3 border" placeholder="Landmark">
+	              </div>
+                  <div class="form-group">
+	                <input type="text" class="form-control text-left px-3 border" placeholder="Optional Phone">
+	              </div>
+	            </form>
+    				</div>
+    				<button><a href="checkout.html" class="btn btn-black py-3 px-5 bg-success btn-outline-dark"><b>Estimate Deliv</b></a></button>
+    			</div>
+    			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+    				<div class="cart-total mb-3">
+    					<h3>Cart Totals</h3>
+    					<p class="d-flex">
+    						<span>Subtotal:-</span>
+    						<span> ₹135.70</span>
+    					</p>
+    					<p class="d-flex">
+    						<span>Delivery:-</span>
+    						<span>FREE</span>
+    					</p>
+    					<p class="d-flex">
+    						<span>Discount:-</span>
+    						<span>₹5.70</span>
+    					</p>
+    					<hr>
+    					<p class="d-flex total-price">
+    						<span>Total:-</span>
+    						<span>₹130</span>
+    					</p>
+    				</div>
+    				<button><a href="checkout.php" class="btn btn-black py-3 px-5 bg-success btn-outline-dark"><b>Proceed to Checkout</b></a></button>
+    			</div>
+    		</div>
+			</div>
+		</section>
 
-                    </select>
-            </tr>
-            <tr class="mt-2">
-            </td>
-                <td class="text-dark" ><b>Symptoms : <b></td>
-                <td> 
-                    <select name="" id="" class="ddlnomination" style="width:250px;">
-	                    <option selected="selected" value="0">--Select--</option>
-                        <option>Fever</option>
-                        <option>Diarrohea</option>
-                        <option>Behvioural Changess</option>
-                        <option>Blister In Eyes or Nostrils</option>
-                        <option>Excess Sallivation</option>
-                        <option>Hot Spot</option>
 
-                    </select>
-                </td>
-                    <td colspan="2"><input type="submit" name="" value="View Report" id="" class="btn_left bg-success btn-border-2 btn-outline-dark btn-rounded p-1 h-1 ml-5 mt-2" /></td>
-            </tr>
-            <tr><td colspan="6">
-                  <div>
-	<table class="table border border-dark" cellspacing="0" cellpadding="2" align="Center" rules="cols" border="1" id="" style="color:Black;background-color:White;border-color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2DEDFDE;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
-		<tr class="bg-success border border-dark" style="font-size:12px;">
-			<th scope="col"  style="font-size:15px">S.No.</th><th scope="col"  style="font-size:15px">Animal</th><th scope="col"  style="font-size:15px">Disease</th><th scope="col"  style="font-size:15px">Symptom's</th><th scope="col"  style="font-size:15px">Precaution's</th><th scope="col"  style="font-size:15px">Treatment</th><th scope="col"  style="font-size:15px">Language Type</th>
-		</tr><tr class="border border-dark" style="">
-			<td style="width:5%;">
-                            1
-                        </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr><tr style="">
-			<td style="width:5%;">
-                            2
-                            </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr><tr style="">
-			<td style="width:5%;">
-                            3
-                            </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr><tr style="">
-			<td style="width:5%;">
-                            4
-                            </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr><tr style=";">
-			<td style="width:5%;">
-                            5
-                            </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr><tr style="">
-			<td style="width:5%;">
-                            6
-                            </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr><tr style="">
-			<td style="width:5%;">
-                            7
-                            </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr><tr style="">
-			<td style="width:5%;">
-                            8
-                            </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr><tr style="">
-			<td style="width:5%;">
-                            9
-                            </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr><tr style="">
-			<td style="width:5%;">
-                            10
-                            </td><td style="width:20%;">
-                            <span id="">Cattle</span>
-                        </td><td style="width:5%;">
-                            <span id="">Fever</span>
-                        </td><td style="width:15%;">
-                            <span id="">Hot body and less food consuption</span>
-                        </td><td style="width:25%;">
-                            <span id="">Shelter cattle away from other animal's.</span>
-                        </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
-                        </td><td style="width:20%;">
-                            <span id="">Hindi</span>
-                        </td>
-		</tr>
-	</table>
-</div>
-</td></tr>
-        </table>
-</table>
-</div>
-</div>
 
-    <!-- end Animal -->
-    
+    <!-- end cart-->
 <hr>
-       <!--  footer -->
-       <footr>
+   <!--  footer -->
+   <footr>
         <div class="footer top_layer ">
             <div class="">
 
@@ -395,7 +321,7 @@
                             <h3>Subcribe email</h3>
                             <p>It is very important for the customer to follow us for more information.. </p>
                             <input class="form-control" placeholder="Your Email" type="type" name="Your Email">
-                            <button class="submit-btn btn-sm">Submit</button>
+                            <button class="submit-btn">Submit</button>
                         </div>
                     </div>
 
@@ -432,8 +358,8 @@
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                     <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
                                 </div>
-                                <div class="address col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                <button class="submit-btn btn-sm">Send</button>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                    <button class="send">Send</button>
                                 </div>
                             
                         </form>
@@ -450,8 +376,10 @@
            
         </div>
         </div>
-    </footer>
+    </footr>
 
+
+    <!-- end footer -->
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -506,6 +434,7 @@
     <!-- google map js -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
     <!-- end google map js -->
+
     <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -526,38 +455,39 @@
   <script>
 		$(document).ready(function(){
 
-		var quantitiy=0;
-		   $('.quantity-right-plus').click(function(e){
-		        
-		        // Stop acting like a button
-		        e.preventDefault();
-		        // Get the field name
-		        var quantity = parseInt($('#quantity').val());
-		        
-		        // If is not undefined
-		            
-		            $('#quantity').val(quantity + 1);
+var quantitiy=0;
+   $('.quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+            
+            $('#quantity').val(quantity + 1);
 
-		          
-		            // Increment
-		        
-		    });
+          
+            // Increment
+        
+    });
 
-		     $('.quantity-left-minus').click(function(e){
-		        // Stop acting like a button
-		        e.preventDefault();
-		        // Get the field name
-		        var quantity = parseInt($('#quantity').val());
-		        
-		        // If is not undefined
-		      
-		            // Increment
-		            if(quantity>0){
-		            $('#quantity').val(quantity - 1);
-		            }
-		    });
-		    
-		});
+     $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantity>0){
+            $('#quantity').val(quantity - 1);
+            }
+    });
+    
+});
+
 	</script>
 </body>
 

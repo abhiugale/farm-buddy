@@ -26,7 +26,11 @@
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-    <!--[if lt IE 9]>
+	<link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" href="fonts/flaticon/fonts/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
@@ -78,6 +82,7 @@
                                                 <li><a href="animal.php" class=" btn-outline-success">Animal Husbandary</a></li>
                                                 <li><a href="weather.php" class=" btn-outline-success">Weather</a></li>
                                                 <li><a href="product.php" class=" btn-outline-success">Product</a></li>
+												<li><a href="shop.php" class=" btn-outline-success fa-2x"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a></li>
                                                 
 
                                             </ul>
@@ -105,113 +110,121 @@
     		<div class="row">
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-1.jpg" alt="">
-    						<span class="status">30%</span>
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-1.jpg" alt="">
+    						<span class="status ml-3"></span>
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 pb-4 px-3 text-center">
     						<h3><a href="#">Capsicum</a></h3>
     						<div class="d-flex">
-    							<div class="pricing">
-		    						<p class="price"><span class="mr-2 price-dc">₹50.00</span><span class="price-sale">₹35.00</span></p>
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span class="price-dc"><b><u>₹50.00</u></b></span></p>
 		    					</div>
 	    					</div>
-	    					<div class="bottom-area d-flex px-3">
+	    					<div class="bottom-area d-flex px-3 border  border-success border-2">
 	    						<div class="m-auto d-flex">
-	    							<a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
-	    								<span><i class="ion-ios-menu"></i></span>
-	    							</a>
-	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-	    								<span><i class="ion-ios-cart"></i></span>
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
 	    							</a>
 	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
-	    								<span><i class="ion-ios-heart"></i></span>
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
 	    							</a>
     							</div>
+								<div class="m-auto d-flex">
+	    							<a href="singleprod.php" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
     						</div>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-2.jpg" alt="Colorlib Template">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-2.jpg" alt="Colorlib Template">
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 pb-4 px-3 text-center">
     						<h3><a href="#">Strawberry</a></h3>
     						<div class="d-flex">
-    							<div class="pricing">
-		    						<p class="price"><span>₹120.00</span></p>
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹120.00</u></b></span></p>
 		    					</div>
 	    					</div>
-    						<div class="bottom-area d-flex px-3">
+    						<div class="bottom-area d-flex px-3 border  border-success border-2">
 	    						<div class="m-auto d-flex">
-	    							<a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
-	    								<span><i class="ion-ios-menu"></i></span>
-	    							</a>
-	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-	    								<span><i class="ion-ios-cart"></i></span>
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
 	    							</a>
 	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
-	    								<span><i class="ion-ios-heart"></i></span>
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
 	    							</a>
     							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
     						</div>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-3.jpg" alt="Colorlib Template">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-3.jpg" alt="Colorlib Template">
 	    					<div class="overlay"></div>
 	    				</a>
     					<div class="text py-3 pb-4 px-3 text-center">
     						<h3><a href="#">Green Beans</a></h3>
     						<div class="d-flex">
-    							<div class="pricing">
-		    						<p class="price"><span>₹120.00</span></p>
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹60.00</u></b></span></p>
 		    					</div>
 	    					</div>
-    						<div class="bottom-area d-flex px-3">
+    						<div class="bottom-area d-flex px-3 border  border-success border-2">
 	    						<div class="m-auto d-flex">
-	    							<a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
-	    								<span><i class="ion-ios-menu"></i></span>
-	    							</a>
-	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-	    								<span><i class="ion-ios-cart"></i></span>
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
 	    							</a>
 	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
-	    								<span><i class="ion-ios-heart"></i></span>
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
 	    							</a>
     							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
     						</div>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-4.jpg" alt="Colorlib Template">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-4.jpg" alt="Colorlib Template">
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 pb-4 px-3 text-center">
     						<h3><a href="#">Purple Cabbage</a></h3>
     						<div class="d-flex">
-    							<div class="pricing">
-		    						<p class="price"><span>₹120.00</span></p>
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹30.00</u></b></span></p>
 		    					</div>
 	    					</div>
-    						<div class="bottom-area d-flex px-3">
+    						<div class="bottom-area d-flex px-3 border  border-success border-2">
 	    						<div class="m-auto d-flex">
-	    							<a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
-	    								<span><i class="ion-ios-menu"></i></span>
-	    							</a>
-	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-	    								<span><i class="ion-ios-cart"></i></span>
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
 	    							</a>
 	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
-	    								<span><i class="ion-ios-heart"></i></span>
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
 	    							</a>
     							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
     						</div>
     					</div>
     				</div>
@@ -220,113 +233,121 @@
 
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-5.jpg" alt="Colorlib Template">
-    						<span class="status">30%</span>
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-5.jpg" alt="Colorlib Template">
+    						<span class="status"></span>
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 pb-4 px-3 text-center">
     						<h3><a href="#">Tomato</a></h3>
     						<div class="d-flex">
-    							<div class="pricing">
-		    						<p class="price"><span class="mr-2 price-dc">₹120.00</span><span class="price-sale">₹80.00</span></p>
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span class="mr-2 price-dc"><b><u>₹40.00</u></b></span></p>
 		    					</div>
 	    					</div>
-	    					<div class="bottom-area d-flex px-3">
+	    					<div class="bottom-area d-flex px-3 border  border-success border-2">
 	    						<div class="m-auto d-flex">
-	    							<a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
-	    								<span><i class="ion-ios-menu"></i></span>
-	    							</a>
-	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-	    								<span><i class="ion-ios-cart"></i></span>
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
 	    							</a>
 	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
-	    								<span><i class="ion-ios-heart"></i></span>
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
 	    							</a>
     							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
     						</div>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-6.jpg" alt="Colorlib Template">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-6.jpg" alt="Colorlib Template">
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 pb-4 px-3 text-center">
     						<h3><a href="#">Brocolli</a></h3>
     						<div class="d-flex">
-    							<div class="pricing">
-		    						<p class="price"><span>₹100.00</span></p>
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹50.00</u></b></span></p>
 		    					</div>
 	    					</div>
-    						<div class="bottom-area d-flex px-3">
+    						<div class="bottom-area d-flex px-3 border  border-success border-2">
 	    						<div class="m-auto d-flex">
-	    							<a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
-	    								<span><i class="ion-ios-menu"></i></span>
-	    							</a>
-	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-	    								<span><i class="ion-ios-cart"></i></span>
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
 	    							</a>
 	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
-	    								<span><i class="ion-ios-heart"></i></span>
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
 	    							</a>
     							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
     						</div>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-7.jpg" alt="Colorlib Template">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-7.jpg" alt="Colorlib Template">
 	    					<div class="overlay"></div>
 	    				</a>
     					<div class="text py-3 pb-4 px-3 text-center">
     						<h3><a href="#">Carrots</a></h3>
     						<div class="d-flex">
-    							<div class="pricing">
-		    						<p class="price"><span>₹120.00</span></p>
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹45.00</u></b></span></p>
 		    					</div>
 	    					</div>
-    						<div class="bottom-area d-flex px-3">
+    						<div class="bottom-area d-flex px-3 border  border-success border-2">
 	    						<div class="m-auto d-flex">
-	    							<a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
-	    								<span><i class="ion-ios-menu"></i></span>
-	    							</a>
-	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-	    								<span><i class="ion-ios-cart"></i></span>
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
 	    							</a>
 	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
-	    								<span><i class="ion-ios-heart"></i></span>
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
 	    							</a>
     							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
     						</div>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-8.jpg" alt="Colorlib Template">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-8.jpg" alt="Colorlib Template">
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 pb-4 px-3 text-center">
     						<h3><a href="#">Fruit Juice</a></h3>
     						<div class="d-flex">
-    							<div class="pricing">
-		    						<p class="price"><span>₹120.00</span></p>
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹80.00</u></b></span></p>
 		    					</div>
 	    					</div>
-    						<div class="bottom-area d-flex px-3">
+    						<div class="bottom-area d-flex px-3 border border-success border-2">
 	    						<div class="m-auto d-flex">
-	    							<a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
-	    								<span><i class="ion-ios-menu"></i></span>
-	    							</a>
-	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-	    								<span><i class="ion-ios-cart"></i></span>
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
 	    							</a>
 	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
-	    								<span><i class="ion-ios-heart"></i></span>
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
 	    							</a>
     							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
     						</div>
     					</div>
     				</div>
@@ -335,7 +356,7 @@
     	</div>
     </section>
 		
-		<section class="ftco-section img" style="background-image: url(images/bg_3.jpg);">
+		<section class="ftco-section img" style="background-image: url(images/bg_3.jpg); height:500px">
     	<div class="container">
 				<div class="row justify-content-end">
           <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
