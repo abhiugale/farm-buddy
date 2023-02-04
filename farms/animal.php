@@ -179,7 +179,7 @@
 	                    <option selected="selected" value="0">--Select--</option>
                         <option>Fever</option>
                         <option>Diarrohea</option>
-                        <option>Behvioural Changess</option>
+                        <option>Behvioural Changes</option>
                         <option>Blister In Eyes or Nostrils</option>
                         <option>Excess Sallivation</option>
                         <option>Hot Spot</option>
@@ -205,7 +205,7 @@
                         </td><td style="width:25%;">
                             <span id="">Shelter cattle away from other animal's.</span>
                         </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="animalpdfs/fever.pdf" target="_blank">fever.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -213,15 +213,15 @@
 			<td style="width:5%;">
                             2
                             </td><td style="width:20%;">
-                            <span id="">Cattle</span>
+                            <span id="">Buffallo</span>
                         </td><td style="width:5%;">
-                            <span id="">Fever</span>
+                            <span id="">Diarrohea</span>
                         </td><td style="width:15%;">
                             <span id="">Hot body and less food consuption</span>
                         </td><td style="width:25%;">
                             <span id="">Shelter cattle away from other animal's.</span>
                         </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="animalpdfs/diarrohea.pdf" target="_blank">diarrohea.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -229,15 +229,15 @@
 			<td style="width:5%;">
                             3
                             </td><td style="width:20%;">
-                            <span id="">Cattle</span>
+                            <span id="">Goat</span>
                         </td><td style="width:5%;">
-                            <span id="">Fever</span>
+                            <span id="">Behvioural Changes</span>
                         </td><td style="width:15%;">
                             <span id="">Hot body and less food consuption</span>
                         </td><td style="width:25%;">
                             <span id="">Shelter cattle away from other animal's.</span>
                         </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">behavioural.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -245,15 +245,15 @@
 			<td style="width:5%;">
                             4
                             </td><td style="width:20%;">
-                            <span id="">Cattle</span>
+                            <span id="">Ship</span>
                         </td><td style="width:5%;">
-                            <span id="">Fever</span>
+                            <span id="">Blister In Eyes or Nostrils</span>
                         </td><td style="width:15%;">
                             <span id="">Hot body and less food consuption</span>
                         </td><td style="width:25%;">
                             <span id="">Shelter cattle away from other animal's.</span>
                         </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">nostrill.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -261,15 +261,15 @@
 			<td style="width:5%;">
                             5
                             </td><td style="width:20%;">
-                            <span id="">Cattle</span>
+                            <span id="">Pig</span>
                         </td><td style="width:5%;">
-                            <span id="">Fever</span>
+                            <span id="">Excess Sallivation</span>
                         </td><td style="width:15%;">
                             <span id="">Hot body and less food consuption</span>
                         </td><td style="width:25%;">
                             <span id="">Shelter cattle away from other animal's.</span>
                         </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">aallivation.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>
@@ -277,15 +277,15 @@
 			<td style="width:5%;">
                             6
                             </td><td style="width:20%;">
-                            <span id="">Cattle</span>
+                            <span id="">Chicken</span>
                         </td><td style="width:5%;">
-                            <span id="">Fever</span>
+                            <span id="">Hot Spots</span>
                         </td><td style="width:15%;">
                             <span id="">Hot body and less food consuption</span>
                         </td><td style="width:25%;">
                             <span id="">Shelter cattle away from other animal's.</span>
                         </td><td style="width:20%;">
-                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">Crop Seed.pdf</a>
+                            <a id="" href="pdf/Crop Seed.pdf" target="_blank">spot.pdf</a>
                         </td><td style="width:20%;">
                             <span id="">Hindi</span>
                         </td>

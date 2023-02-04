@@ -258,7 +258,7 @@
 	              </div>
 	            </form>
     				</div>
-    				<button><a href="checkout.html" class="btn btn-black py-3 px-5 bg-success btn-outline-dark"><b>Estimate Deliv</b></a></button>
+    				<button><a href="checkout.html" class="btn btn-black py-3 px-5 bg-success btn-outline-dark"><b>Estimate Delivery</b></a></button>
     			</div>
     			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
     				<div class="cart-total mb-3">

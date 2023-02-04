@@ -89,7 +89,6 @@
                                         </nav>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                                 <form class="search">
@@ -107,6 +106,18 @@
     <!-- end header -->
     <!-- start product -->
        	<div class="container">
+		   <div class="row justify-content-center">
+    			<div class="d-flex col-md-10 mb-5 text-center">
+    				<ul class=" d-flex mt-5 product-category">
+    					<li><a href="#" class="active text-dark btn-outline-success" style="font-size:20px">All</a></li>
+    					<li><a class="ml-5 text-dark btn-outline-success" style="font-size:20px" href="#">Vegetables</a></li>
+    					<li><a class="ml-5 text-dark btn-outline-success" style="font-size:20px" href="#">Fruits</a></li>
+    					<li><a class="ml-5 text-dark btn-outline-success" style="font-size:20px" href="#">Juice</a></li>
+    					<li><a class="ml-5 text-dark btn-outline-success" style="font-size:20px" href="#">Dried</a></li>
+    				</ul>
+    			</div>
+    		</div>
+			
     		<div class="row">
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
@@ -118,7 +129,7 @@
     						<h3><a href="#">Capsicum</a></h3>
     						<div class="d-flex">
     							<div class="pricing ml-4">
-		    						<p class="price ml-5"><span class="price-dc"><b><u>₹50.00</u></b></span></p>
+		    						<p class="price ml-5"><span class="price-dc"><b><u>₹50.00 kg</u></b></span></p>
 		    					</div>
 	    					</div>
 	    					<div class="bottom-area d-flex px-3 border  border-success border-2">
@@ -148,7 +159,7 @@
     						<h3><a href="#">Strawberry</a></h3>
     						<div class="d-flex">
     							<div class="pricing ml-4">
-		    						<p class="price ml-5"><span><b><u>₹120.00</u></b></span></p>
+		    						<p class="price ml-5"><span><b><u>₹120.00 Kg</u></b></span></p>
 		    					</div>
 	    					</div>
     						<div class="bottom-area d-flex px-3 border  border-success border-2">
@@ -178,7 +189,7 @@
     						<h3><a href="#">Green Beans</a></h3>
     						<div class="d-flex">
     							<div class="pricing ml-4">
-		    						<p class="price ml-5"><span><b><u>₹60.00</u></b></span></p>
+		    						<p class="price ml-5"><span><b><u>₹60.00 Kg</u></b></span></p>
 		    					</div>
 	    					</div>
     						<div class="bottom-area d-flex px-3 border  border-success border-2">
@@ -208,7 +219,7 @@
     						<h3><a href="#">Purple Cabbage</a></h3>
     						<div class="d-flex">
     							<div class="pricing ml-4">
-		    						<p class="price ml-5"><span><b><u>₹30.00</u></b></span></p>
+		    						<p class="price ml-5"><span><b><u>₹30.00 Kg</u></b></span></p>
 		    					</div>
 	    					</div>
     						<div class="bottom-area d-flex px-3 border  border-success border-2">
@@ -241,7 +252,7 @@
     						<h3><a href="#">Tomato</a></h3>
     						<div class="d-flex">
     							<div class="pricing ml-4">
-		    						<p class="price ml-5"><span class="mr-2 price-dc"><b><u>₹40.00</u></b></span></p>
+		    						<p class="price ml-5"><span class="mr-2 price-dc"><b><u>₹40.00 Kg</u></b></span></p>
 		    					</div>
 	    					</div>
 	    					<div class="bottom-area d-flex px-3 border  border-success border-2">
@@ -271,7 +282,7 @@
     						<h3><a href="#">Brocolli</a></h3>
     						<div class="d-flex">
     							<div class="pricing ml-4">
-		    						<p class="price ml-5"><span><b><u>₹50.00</u></b></span></p>
+		    						<p class="price ml-5"><span><b><u>₹50.00 Kg</u></b></span></p>
 		    					</div>
 	    					</div>
     						<div class="bottom-area d-flex px-3 border  border-success border-2">
@@ -301,7 +312,7 @@
     						<h3><a href="#">Carrots</a></h3>
     						<div class="d-flex">
     							<div class="pricing ml-4">
-		    						<p class="price ml-5"><span><b><u>₹45.00</u></b></span></p>
+		    						<p class="price ml-5"><span><b><u>₹45.00 Kg</u></b></span></p>
 		    					</div>
 	    					</div>
     						<div class="bottom-area d-flex px-3 border  border-success border-2">
@@ -331,7 +342,127 @@
     						<h3><a href="#">Fruit Juice</a></h3>
     						<div class="d-flex">
     							<div class="pricing ml-4">
-		    						<p class="price ml-5"><span><b><u>₹80.00</u></b></span></p>
+		    						<p class="price ml-5"><span><b><u>₹80.00 Kg</u></b></span></p>
+		    					</div>
+	    					</div>
+    						<div class="bottom-area d-flex px-3 border border-success border-2">
+	    						<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
+	    							</a>
+	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
+	    							</a>
+    							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+    				<div class="product">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-9.jpg" alt="Colorlib Template">
+    						<div class="overlay"></div>
+    					</a>
+    					<div class="text py-3 pb-4 px-3 text-center">
+    						<h3><a href="#">Onion</a></h3>
+    						<div class="d-flex">
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹30.00 kg</u></b></span></p>
+		    					</div>
+	    					</div>
+    						<div class="bottom-area d-flex px-3 border border-success border-2">
+	    						<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
+	    							</a>
+	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
+	    							</a>
+    							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+    				<div class="product">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-10.jpg" alt="Colorlib Template">
+    						<div class="overlay"></div>
+    					</a>
+    					<div class="text py-3 pb-4 px-3 text-center">
+    						<h3><a href="#">Apple</a></h3>
+    						<div class="d-flex">
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹120.00 Kg</u></b></span></p>
+		    					</div>
+	    					</div>
+    						<div class="bottom-area d-flex px-3 border border-success border-2">
+	    						<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
+	    							</a>
+	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
+	    							</a>
+    							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+    				<div class="product">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-11.jpg" alt="Colorlib Template">
+    						<div class="overlay"></div>
+    					</a>
+    					<div class="text py-3 pb-4 px-3 text-center">
+    						<h3><a href="#">Garlic</a></h3>
+    						<div class="d-flex">
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹80.00 Kg</u></b></span></p>
+		    					</div>
+	    					</div>
+    						<div class="bottom-area d-flex px-3 border border-success border-2">
+	    						<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<span><i class="ion-ios-cart fa-2x"></i></span>
+	    							</a>
+	    							<a href="#" class="heart d-flex justify-content-center align-items-center ">
+	    								<span><i class="ion-ios-heart fa-2x"></i></span>
+	    							</a>
+    							</div>
+								<div class="m-auto d-flex">
+	    							<a href="#" class="buy-now d-flex justify-content-center align-items-center mx-3">
+	    								<button class="bg-success btn-border-2 btn-outline-dark btn-rounded p-1">Buy Now</button>
+	    							</a>
+								</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+    				<div class="product">
+    					<a href="#" class="img-prod"><img class="img-fluid border border-3 border-dark" src="images/product-12.jpg" alt="Colorlib Template">
+    						<div class="overlay"></div>
+    					</a>
+    					<div class="text py-3 pb-4 px-3 text-center">
+    						<h3><a href="#">Chilli</a></h3>
+    						<div class="d-flex">
+    							<div class="pricing ml-4">
+		    						<p class="price ml-5"><span><b><u>₹40.00 Kg</u></b></span></p>
 		    					</div>
 	    					</div>
     						<div class="bottom-area d-flex px-3 border border-success border-2">
@@ -356,15 +487,15 @@
     	</div>
     </section>
 		
-		<section class="ftco-section img" style="background-image: url(images/bg_3.jpg); height:500px">
+		<section class="ftco-section img" style="background-image: url(images/bg_3.jpg);">
     	<div class="container">
 				<div class="row justify-content-end">
-          <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
+          <div class="col-md-6 heading-section mt-5 p-5 ftco-animate deal-of-the-day ftco-animate">
           	<span class="subheading">Best Price For You</span>
             <h2 class="mb-4">Deal of the day</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-            <h3><a href="#">Spinach</a></h3>
-            <span class="price">₹10 <a href="#">now ₹5 only</a></span>
+            <p>Dhamaka Offer</p>
+            <h3><a href="#">Strawberry</a></h3>
+            <span class="price">₹150 <a href="#">now ₹120 only</a></span>
             <div id="timer" class="d-flex mt-5">
 						  <div class="time" id="days"></div>
 						  <div class="time pl-3" id="hours"></div>
@@ -374,6 +505,7 @@
           </div>
         </div>   		
     	</div>
+</section>
     </section>
 </div>
 

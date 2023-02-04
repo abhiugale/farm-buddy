@@ -399,13 +399,13 @@
 </select></td>
               <!--  <td colspan="2"><input type="submit" name="" value="" id="" class="btn_left" /></td>
             </tr>-->
-            <tr><td colspan="2"><input type="submit" name="" value="View Report" id="" class="btn_left bg-success btn-border-2 btn-outline-dark btn-rounded p-1 ml-5 mt-2" /></td>
+            <tr><td colspan="2" class="text-ceter"><input type="submit" name="" value="View Report" id="" class="btn_left bg-success btn-border-2 btn-outline-dark btn-rounded p-1 ml-5 mt-2" /></td>
              
             </tr>
 
               <tr><td colspan="4">
                   <div>
-	<table class="table border border-dark" cellspacing="0" cellpadding="2" align="Center" rules="cols" border="1" id="" style="color:Black;background-color:White;border-color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2DEDFDE;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
+	<table class="table border text-center border-dark" cellspacing="0" cellpadding="2" align="Center" rules="cols" border="1" id="" style="color:Black;background-color:White;border-color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2DEDFDE;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
 		<tr class="bg-success border border-dark" style="font-size:12px;">
 			<th scope="col">S.No.</th><th scope="col">NARP Zone</th><th scope="col">Season</th><th scope="col">Crop Name</th><th scope="col">Crop Info Type</th><th scope="col">File Name</th><th scope="col">Language Type</th>
 		</tr><tr class="border border-dark" style="">

@@ -111,56 +111,56 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-7 ftco-animate">
-						<form action="#" class="billing-form">
+						<form action="#" method="GET" class="billing-form">
 							<h3 class="mb-4 billing-heading">Billing Details</h3>
 	          	<div class="row align-items-end">
 	          		<div class="col-md-6">
 	                <div class="form-group">
-	                  <input type="text" class="form-control border" placeholder="First Name">
+	                  <input type="text" name="fname" class="form-control border" placeholder="First Name">
 	                </div>
 	              </div>
 	              <div class="col-md-6">
 	                <div class="form-group">
-	                  <input type="text" class="form-control border" placeholder="Last Name">
+	                  <input type="text" name="lname" class="form-control border" placeholder="Last Name">
 	                </div>
                 </div>
                 <div class="w-100"></div>
 		            <div class="col-md-12">
 		            	<div class="form-group">
-                        <input type="text" class="form-control  border" value="" placeholder="Country">
+                        <input type="text" name="country" class="form-control  border" value="" placeholder="Country">
 		            	</div>
 		            </div>
 		            <div class="w-100"></div>
 		            <div class="col-md-6">
 		            	<div class="form-group">
-	                  <input type="text" class="form-control border" placeholder="House Number and Street Name">
+	                  <input type="text" name="housenumber" class="form-control border" placeholder="House Number and Street Name">
 	                </div>
 		            </div>
 		            <div class="col-md-6">
 		            	<div class="form-group">
-	                  <input type="text" class="form-control border" placeholder="Appartment(optional)">
+	                  <input type="text" name="apartment" class="form-control border" placeholder="Appartment(optional)">
 	                </div>
 		            </div>
 		            <div class="w-100"></div>
 		            <div class="col-md-6">
 		            	<div class="form-group">
-	                  <input type="text" class="form-control border" placeholder="Town/City">
+	                  <input type="text" name="towncity" class="form-control border" placeholder="Town/City">
 	                </div>
 		            </div>
 		            <div class="col-md-6">
 		            	<div class="form-group">
-	                  <input type="text" class="form-control border" placeholder="Postcode/ZIP *">
+	                  <input type="text" name="pincode" class="form-control border" placeholder="PIN CODE">
 	                </div>
 		            </div>
 		            <div class="w-100"></div>
 		            <div class="col-md-6">
 	                <div class="form-group">
-	                  <input type="text" class="form-control border" placeholder="Phone">
+	                  <input type="text" name="phone" class="form-control border" placeholder="Phone">
 	                </div>
 	              </div>
 	              <div class="col-md-6">
 	                <div class="form-group">
-	                  <input type="text" class="form-control border" placeholder="Email">
+	                  <input type="email" name="email" class="form-control border" placeholder="Email">
 	                </div>
                 </div>
                 <div class="w-100"></div>
@@ -173,7 +173,23 @@
 									</div>
                 </div>
 	            </div>
-	          </form><!-- END -->
+	          </form>
+              <!-- PHP ADDRESS -->
+                <?php
+                    $phone = $_GET['phone'];
+                    $email = $_GET['email'];
+                    $pincode = $_GET['pincode'];
+                    $towncity = $_GET['towncity'];
+                    $phone = $_GET['phone'];
+                    $apartment = $_GET['apartment'];
+                    $housenumber = $_GET['housenumber'];
+                    $country = $_GET['country'];
+                    $fname = $_GET['fname'];
+                    $lname = $_GET['lname'];
+
+                ?>
+              <!-- PHP ADDRESS -->
+              <!-- END -->
 					</div>
 					<div class="col-xl-5">
 	          <div class="row mt-5 pt-3">

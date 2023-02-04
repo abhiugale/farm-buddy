@@ -162,7 +162,8 @@
 	          		<p style="color: #000;">600 kg available</p>
 	          	</div>
           	</div>
-          	<p><a href="cart.php" class="btn btn-black py-3 px-5 bg-success btn-outline-dark">Add to Cart</a></p>
+          	<button ><a href="cart.php" class="btn btn-black py-3 px-3  bg-success btn-outline-dark">Add to Cart</a></button>
+              <button><a href="checkout.php" class="btn btn-black py-3 px-4 bg-success btn-outline-dark">But Now</a></button>
     			</div>
     		</div>
     	</div>
