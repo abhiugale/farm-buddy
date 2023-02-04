@@ -103,7 +103,85 @@
     <!-- start weather -->
     <div class="mt-5 ml-5 d-flex justify-content-center">
     <div id="ww_e0d79c84d295c" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl403"],"font":"Arial","sl_ics":"one","sl_sot":"celsius","cl_bkg":"#00796B","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#FFFFFF","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Weather Data Source: <a href="https://weatherlabs.in/हिंदी/महाराष्ट्र_का_मौसम/10_दिनों/" id="ww_e0d79c84d295c_u" target="_blank">10 दिनों का मौसम</a></div><script async src="https://app1.weatherwidget.org/js/?id=ww_e0d79c84d295c"></script></div>
-    <!-- end weather -->
+    <div class="text-center">
+    <button ><a href="#" class="btn btn-black py-3 px-3 mt-2  bg-success btn-outline-dark">View Report</a></button>
+    </div>
+    <table>
+    <td>
+    <table class="table border border-dark" cellspacing="0" cellpadding="2" align="Center" rules="cols" border="1" id="" style="color:Black;background-color:White;border-color:ctl00_ContentPlaceHolder1_GridView1_ctl22_Label2DEDFDE;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
+		<tr class="bg-success border border-dark" style="font-size:12px;">
+			<th scope="col"  style="font-size:15px">City</th><th scope="col"  style="font-size:15px">Next 1-3 Days</th><th scope="col"  style="font-size:15px">Next 4-6 Days</th><th scope="col"  style="font-size:15px">Next 7-9 Days</th><th scope="col"  style="font-size:15px">Next 10-12 Days</th></th>
+		</tr><tr class="border border-dark" style="">
+			<td style="width:20%;">
+                            Sangamner
+                        </td><td style="width:20%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:20%;">
+                            <span id="">Mostly dry</span>
+                        </td><td style="width:20%;">
+                            <span id="">Mostly dry</span>
+                        </td><td style="width:20%;">
+                            <span id="">Mostly dry</span>
+                        </td>
+                      
+		</tr><tr style="">
+			<td style="width:5%;">
+                            Akole
+                            </td><td style="width:20%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:5%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:15%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:25%;">
+                            <span id="">Mostly Dry</span>
+                        </td>
+                      
+		</tr><tr style="">
+			<td style="width:5%;">
+                            Nashik
+                            </td><td style="width:20%;">
+                            <span id="">Light rain (total 3mm), mostly falling on Fri afternoon.</span>
+                        </td><td style="width:5%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:15%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:25%;">
+                            <span id="">Mostly Dry</span>
+                        </td>
+                       
+		</tr><tr style="">
+			<td style="width:5%;">
+                            Mumbai
+                            </td><td style="width:20%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:5%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:15%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:25%;">
+                            <span id="">SMostly Dry</span>
+                        </td>
+		</tr><tr style=";">
+			<td style="width:5%;">
+                            Pune
+                            </td><td style="width:20%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:5%;">
+                            <span id="">Light rain (total 3mm), mostly falling on Fri afternoon.</span>
+                        </td><td style="width:15%;">
+                            <span id="">Mostly Dry</span>
+                        </td><td style="width:25%;">
+                            <span id="">Mostly Dry</span>
+                        </td>
+                       
+		</tr>
+		</tr>
+	</table>
+</div>
+</td></tr>
+        </table>
+        <!-- end weather -->
 <hr>
    <!--  footer -->
    <footr>
